@@ -1,0 +1,2509 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.19f1 (95c298372b1e) revision 9814680'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/jacob/Desktop/Guitar Hero
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53971
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/jacob/Desktop/Guitar Hero
+C:/Users/jacob/Desktop/Guitar Hero
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27336] Host "[IP] 10.0.0.196 [Port] 0 [Flags] 2 [Guid] 1629544479 [EditorId] 1629544479 [Version] 1048832 [Id] WindowsEditor(7,TheDevAtlas) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27336] Host "[IP] 10.0.0.196 [Port] 0 [Flags] 2 [Guid] 1629544479 [EditorId] 1629544479 [Version] 1048832 [Id] WindowsEditor(7,TheDevAtlas) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.19f1 (95c298372b1e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jacob/Desktop/Guitar Hero/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12100 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003139 seconds.
+- Loaded All Assemblies, in  0.281 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 510ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (232ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.728 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.549 seconds
+Domain Reload Profiling: 1271ms
+	BeginReloadAssembly (286ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (141ms)
+			BuildScriptInfoCaches (24ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+database is locked
+Failed to delete database file Library/ShaderCache.db
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+database is locked
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5678 unused Assets / (5.3 MB). Loaded Objects now: 6373.
+Memory consumption went from 172.0 MB to 166.7 MB.
+Total: 6.623800 ms (FindLiveObjects: 0.508800 ms CreateObjectMapping: 0.407200 ms MarkObjects: 3.814400 ms  DeleteObjects: 1.892800 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 1226ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5676 unused Assets / (5.2 MB). Loaded Objects now: 6374.
+Memory consumption went from 146.0 MB to 140.8 MB.
+Total: 6.803200 ms (FindLiveObjects: 0.499100 ms CreateObjectMapping: 0.543700 ms MarkObjects: 3.859300 ms  DeleteObjects: 1.900700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.570 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1150ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5676 unused Assets / (5.2 MB). Loaded Objects now: 6374.
+Memory consumption went from 147.8 MB to 142.6 MB.
+Total: 7.727600 ms (FindLiveObjects: 0.784300 ms CreateObjectMapping: 0.425200 ms MarkObjects: 4.510200 ms  DeleteObjects: 2.007000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12977.763009 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.3589 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0125643 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004079 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0075962 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004265 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0079957 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0076021 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004390 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0073658 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001041 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0078508 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001392 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0072169 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001422 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0078602 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006678 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026762 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0070417 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001545 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0090687 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.007708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060434 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000970 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063328 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004412 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0064498 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006106 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001091 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062658 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004063 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0065704 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004727 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062918 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000870 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059314 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001165 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060085 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059923 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0065413 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0066554 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006184 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000920 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063249 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063698 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062946 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001139 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00611 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001166 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0068009 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001489 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0066735 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001162 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059756 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000815 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062947 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0057943 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006815 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059381 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000888 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060917 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0075873 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061612 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001489 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059417 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001462 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0057156 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001170 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061524 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0068556 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001340 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063899 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001169 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063517 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003769 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063088 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001477 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059785 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000996 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063969 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006112 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062422 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004869 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006274 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001251 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061906 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004811 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063267 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0058929 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004938 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0064233 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0066099 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059676 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004531 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060047 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004953 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059618 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004674 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060986 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004600 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0059468 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004619 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0068077 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060956 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000868 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062324 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008254 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006375 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005979 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061319 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004441 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0064044 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001328 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063197 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003913 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0067558 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0055411 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062441 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006236 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007324 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060937 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004030 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063679 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000956 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060085 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005071 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063657 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004338 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063451 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005019 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060478 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006485 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005236 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063071 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063098 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060908 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004696 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061714 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005398 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062893 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025389 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0068442 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004483 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060499 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061939 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004693 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.008776 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062858 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0066177 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001113 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0064124 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004909 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0065817 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000885 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060976 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004389 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0067728 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004964 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061556 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004969 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006327 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062474 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001083 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063857 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004924 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0068464 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004893 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060127 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0066319 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005056 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061486 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004378 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0058483 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004914 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060862 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001096 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061854 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001210 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063756 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003810 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0067294 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003799 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062701 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004096 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063893 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001752 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063506 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064213 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060984 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010164 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061341 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061088 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001445 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0058891 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004352 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0064169 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.005999 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004618 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0058137 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072626 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006069 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007255 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0071904 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001096 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0062598 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001511 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0060224 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003986 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0061109 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004136 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0063988 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0056749 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075557 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0058869 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '2024-05-09T17:34:48.357282Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067547 seconds.
+  path: Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.3603372 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffccd46465d (Unity) StackWalker::ShowCallstack
+0x00007ffccd46bef9 (Unity) GetStacktrace
+0x00007ffcce8880e5 (Unity) GetAssetHashAndValidate
+0x00007ffcce886a05 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffcce884bde (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffcce8c2fd3 (Unity) CreateAssetVersionBuilder
+0x00007ffcce8ca782 (Unity) ImportToObjects
+0x00007ffcce8c93c6 (Unity) ImportAsset
+0x00007ffcce866d9e (Unity) AssetImportWorker::Import
+0x00007ffcce81a16e (Unity) <lambda_f45a4f3b39c8aa94a47caff7e1af23c3>::operator()
+0x00007ffcce8fd72e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffcce8ea3de (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffcce8ebf24 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffcce8fbecc (Unity) IOService::Run
+0x00007ffcce8440c6 (Unity) RunAssetImportWorkerClientV2
+0x00007ffcce84418b (Unity) RunAssetImporterV2
+0x00007ffcce05db68 (Unity) Application::InitializeProject
+0x00007ffcce4ab3be (Unity) UnityMain
+0x00007ff749b82cda (Unity) __scrt_common_main_seh
+0x00007ffdba78257d (KERNEL32) BaseThreadInitThunk
+0x00007ffdbb4eaa48 (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/textmesh pro/tw-cen-mt-condensed-extrabold.ttf in SourceAssetDB has modification time of '2024-05-09T17:34:41.1006771Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffccd46465d (Unity) StackWalker::ShowCallstack
+0x00007ffccd46bef9 (Unity) GetStacktrace
+0x00007ffcce8880e5 (Unity) GetAssetHashAndValidate
+0x00007ffcce886a05 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffcce884bde (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffcce8c2fd3 (Unity) CreateAssetVersionBuilder
+0x00007ffcce8ca782 (Unity) ImportToObjects
+0x00007ffcce8c93c6 (Unity) ImportAsset
+0x00007ffcce866d9e (Unity) AssetImportWorker::Import
+0x00007ffcce81a16e (Unity) <lambda_f45a4f3b39c8aa94a47caff7e1af23c3>::operator()
+0x00007ffcce8fd72e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffcce8ea3de (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffcce8ebf24 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffcce8fbecc (Unity) IOService::Run
+0x00007ffcce8440c6 (Unity) RunAssetImportWorkerClientV2
+0x00007ffcce84418b (Unity) RunAssetImporterV2
+0x00007ffcce05db68 (Unity) Application::InitializeProject
+0x00007ffcce4ab3be (Unity) UnityMain
+0x00007ff749b82cda (Unity) __scrt_common_main_seh
+0x00007ffdba78257d (KERNEL32) BaseThreadInitThunk
+0x00007ffdbb4eaa48 (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Fonts/tw-cen-mt-condensed-extrabold.ttf
+  artifactKey: Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/tw-cen-mt-condensed-extrabold.ttf using Guid(ae8a6d5dfcb344a46b2a45d1f4c3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '339fe7d000c69c3fa2b071143c40003d') in 0.0078107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.314181 seconds.
+  path: Assets/TextMesh Pro/Fonts/tw-cen-mt-condensed-extrabold SDF.asset
+  artifactKey: Guid(f1eb93ecca7393a46bef0a58d20a1161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/tw-cen-mt-condensed-extrabold SDF.asset using Guid(f1eb93ecca7393a46bef0a58d20a1161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a568c4fef97c415843c1a3a6d0d19244') in 0.0205205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.279006 seconds.
+  path: Assets/TextMesh Pro/Fonts/tw-cen-mt-condensed-extrabold SDF.asset
+  artifactKey: Guid(f1eb93ecca7393a46bef0a58d20a1161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/tw-cen-mt-condensed-extrabold SDF.asset using Guid(f1eb93ecca7393a46bef0a58d20a1161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea984587abfa02a4bd6d2454c0ac9e5') in 0.0194598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1204ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5673 unused Assets / (4.9 MB). Loaded Objects now: 6455.
+Memory consumption went from 158.7 MB to 153.8 MB.
+Total: 7.755100 ms (FindLiveObjects: 0.499900 ms CreateObjectMapping: 0.610000 ms MarkObjects: 4.052400 ms  DeleteObjects: 2.592200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\Desktop\Guitar Hero\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.597 seconds
+Domain Reload Profiling: 1157ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (597ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+database is locked
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5673 unused Assets / (4.4 MB). Loaded Objects now: 6455.
+Memory consumption went from 158.9 MB to 154.5 MB.
+Total: 6.498700 ms (FindLiveObjects: 0.550300 ms CreateObjectMapping: 0.347700 ms MarkObjects: 4.013400 ms  DeleteObjects: 1.587000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
